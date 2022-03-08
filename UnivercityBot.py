@@ -2,7 +2,6 @@ import telebot
 import settings
 import requests
 import smtplib
-from telebot import types
 from telebot import TeleBot, types
 import aiogram
 import psycopg2
@@ -30,7 +29,7 @@ def Name(message):
             con = psycopg2.connect(
             database="kursach",
             user="admin",
-            password="Gozime32",
+            password="XXXXXXX",
             host="127.0.0.1",
             port="5433"
             )
@@ -59,7 +58,7 @@ def vkID(message):
             con = psycopg2.connect(
             database="kursach",
             user="admin",
-            password="Gozime32",
+            password="XXXXXX",
             host="127.0.0.1",
             port="5433"
             )
@@ -90,7 +89,7 @@ def phone(message):
             con = psycopg2.connect(
             database="kursach",
             user="admin",
-            password="Gozime32",
+            password="XXXXXX",
             host="127.0.0.1",
             port="5433"
             )
@@ -116,7 +115,7 @@ def IdGroop(message):
             con = psycopg2.connect(
             database="kursach",
             user="admin",
-            password="Gozime32",
+            password="XXXXXX",
             host="127.0.0.1",
             port="5433"
             )
@@ -145,7 +144,7 @@ def email(message):
             con = psycopg2.connect(
             database="kursach",
             user="admin",
-            password="Gozime32",
+            password="XXXXXX",
             host="127.0.0.1",
             port="5433"
             )
@@ -170,7 +169,7 @@ def FirstFunc(message):
         con = psycopg2.connect(
         database="kursach",
         user="admin",
-        password="Gozime32",
+        password="XXXXXXXX",
         host="127.0.0.1",
         port="5433"
         )
@@ -190,7 +189,7 @@ def incommand(message):
         con = psycopg2.connect(
         database = "kursach",
         user = "admin",
-        password = "Gozime32",
+        password = "XXXXXXXXX",
         host = "127.0.0.1",
         port = "5433"
         )
